@@ -45,6 +45,10 @@ header{
 #links a:hover{
     text-decoration: underline;
 }
+
+header div > div:last-child{
+    text-align: end;
+}
 /* end of header */
 
 
@@ -127,6 +131,7 @@ footer{
     background-color: #23272A;
 }
 
+/* footer section with cards */
 .foot-row{
     display: flex;
     margin: auto;
@@ -150,3 +155,26 @@ footer{
     background-color: #20B2AA;
     border: 2px dashed white;
 }
+/* end footer section with cards */
+
+/* bottom of footer */
+.foot-end{
+    width: 1190px;
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #7FFFD4;
+}
+
+.foot-logo{
+    padding: 5px;
+    background-color: #FFB6C1;
+    border: 2px dashed black;
+}
+/* end bottom of footer */
