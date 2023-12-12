@@ -68,6 +68,14 @@ section{
     padding: 50px;
 }
 
+.white{
+    background-color: white;
+}
+
+.gray{
+    background-color: #D3D3D3;
+}
+
 
 /* section with main block on the left */
 .style-1{
