@@ -63,13 +63,11 @@ header{
     border: 2px dashed black;
 }
 
-/* test */
-section{
-    background-color: limegreen;
 
+section{
     padding: 50px;
 }
-/* end test */
+
 
 /* section with main block on the left */
 .style-1{
@@ -108,3 +106,11 @@ section{
     flex-direction: row-reverse;
 }
 /* end section with main block on the right */
+
+.green{
+    max-width: 1190px;
+    padding-bottom: 890px;
+
+    margin: auto;
+    background-color: #228B22;
+}
