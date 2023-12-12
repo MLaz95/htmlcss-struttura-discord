@@ -122,3 +122,35 @@ section{
     margin: auto;
     background-color: #228B22;
 }
+
+footer{
+    background-color: #23272A;
+}
+
+.foot-row{
+    padding-left: 0;
+    padding-right: 0;
+    /* test */
+
+    display: flex;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 40px;
+
+    max-width: 1190px;
+}
+
+.foot-prime{
+    width: 355px;
+    padding-bottom: 575px;
+
+    background-color: #F08080;
+    border: 2px dashed black;
+}
+
+.foot-second{
+    flex-grow: 1;
+
+    background-color: #20B2AA;
+    border: 2px dashed white;
+}
