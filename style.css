@@ -3,3 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* reset */
+
+body{
+    font-family: sans-serif;
+}
+
+/* header */
+header{
+    background-color: #ADD8E6;
+    padding: 17px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+    max-width: 1000px;
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #DAA520;
+}
+
+.container > div{
+    padding: 5px;
+    border: 1px dashed black;
+    width: 150px;
+}
+
+#links{
+    flex-grow: 1;
+    text-align: center;
+    ;
+}
+
+#links a{
+    padding: 5px;
+    text-decoration: none;
+}
+
+#links a:hover{
+    text-decoration: underline;
+}
+/* end of header */
