@@ -71,6 +71,7 @@ section{
 }
 /* end test */
 
+/* section with main block on the left */
 .style-1{
     display: flex;
     justify-content: center;
@@ -78,16 +79,32 @@ section{
     margin: auto;
     max-width: 1190px;    
 }
+/* end section with main block on the left */
+
 
 .blue{
     width: 715px;
     padding-bottom: 500px;
 
     background-color: #1E90FF;
+    border: 2px dashed black;
 }
 
 .pink{
     flex-grow: 1;
 
     background-color: #FFC0CB;
+    border: 2px dashed black;
 }
+
+/* section with main block on the right */
+.style-2{
+    display: flex;
+    justify-content: center;
+
+    margin: auto;
+    max-width: 1190px;
+
+    flex-direction: row-reverse;
+}
+/* end section with main block on the right */
