@@ -28,7 +28,7 @@ header{
 
 .container > div{
     padding: 5px;
-    border: 1px dashed black;
+    border: 2px dashed black;
     width: 150px;
 }
 
@@ -47,3 +47,18 @@ header{
     text-decoration: underline;
 }
 /* end of header */
+
+.banner-outer{
+    background-color: #00008B;
+    padding: 50px;
+
+}
+
+.banner-inner{
+    margin: auto;
+    width: 900px;
+    padding-bottom: 400px;
+
+    background-color: #EE82EE;
+    border: 2px dashed black;
+}
