@@ -63,7 +63,7 @@ header div > div:last-child{
 
 .banner-inner{
     margin: auto;
-    width: 900px;
+    max-width: 900px;
     padding-bottom: 400px;
 
     background-color: #EE82EE;
@@ -152,7 +152,7 @@ footer{
 
 /* bottom of footer */
 .foot-end{
-    width: 1190px;
+    max-width: 1190px;
     padding: 20px 0;
 
     display: flex;
