@@ -9,8 +9,11 @@ body{
     font-family: sans-serif;
 }
 
-.page-width{
+.container{
     max-width: 1190px;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* header */
@@ -19,18 +22,14 @@ header{
     padding: 17px;
 }
 
-.container{
+header .container{
     display: flex;
     justify-content: center;
 
-    
-
-    margin-left: auto;
-    margin-right: auto;
     background-color: #DAA520;
 }
 
-.container > div{
+header .container > div{
     padding: 5px;
     border: 2px dashed black;
     width: 150px;
@@ -89,8 +88,6 @@ main > section{
 .style-1{
     display: flex;
     justify-content: center;
-
-    margin: auto; 
 }
 /* end section with main block on the left */
 
@@ -115,8 +112,6 @@ main > section{
     display: flex;
     justify-content: center;
 
-    margin: auto;
-
     flex-direction: row-reverse;
 }
 /* end section with main block on the right */
@@ -124,7 +119,6 @@ main > section{
 .green{
     padding-bottom: 890px;
 
-    margin: auto;
     background-color: #228B22;
 }
 
@@ -135,7 +129,7 @@ footer{
 /* footer section with cards */
 .foot-row{
     display: flex;
-    margin: auto;
+
     padding-top: 15px;
     padding-bottom: 40px;
 }
@@ -165,8 +159,6 @@ footer{
     justify-content: space-between;
 
     margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
 
     background-color: #7FFFD4;
 }
