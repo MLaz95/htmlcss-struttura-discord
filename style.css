@@ -9,6 +9,10 @@ body{
     font-family: sans-serif;
 }
 
+.page-width{
+    max-width: 1190px;
+}
+
 /* header */
 header{
     background-color: #ADD8E6;
@@ -19,7 +23,7 @@ header{
     display: flex;
     justify-content: center;
 
-    max-width: 1190px;
+    
 
     margin-left: auto;
     margin-right: auto;
@@ -86,8 +90,7 @@ main > section{
     display: flex;
     justify-content: center;
 
-    margin: auto;
-    max-width: 1190px;    
+    margin: auto; 
 }
 /* end section with main block on the left */
 
@@ -113,14 +116,12 @@ main > section{
     justify-content: center;
 
     margin: auto;
-    max-width: 1190px;
 
     flex-direction: row-reverse;
 }
 /* end section with main block on the right */
 
 .green{
-    max-width: 1190px;
     padding-bottom: 890px;
 
     margin: auto;
@@ -137,8 +138,6 @@ footer{
     margin: auto;
     padding-top: 15px;
     padding-bottom: 40px;
-
-    max-width: 1190px;
 }
 
 .foot-prime{
